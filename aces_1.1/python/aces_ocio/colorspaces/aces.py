@@ -1754,7 +1754,7 @@ def get_transform_info(ctl_transform):
          Full / Legal switch and whether it is *SSTS* based.
     """
 
-    with open(ctl_transform, 'rb') as fp:
+    with open(ctl_transform, 'r') as fp:
         lines = fp.readlines()
 
     # Retrieving the *transform ID* and *User Name*.

@@ -38,7 +38,7 @@ def read_text(text_file):
     if not text_file:
         return
 
-    with open(text_file, 'rb') as fp:
+    with open(text_file, 'r') as fp:
         text = (fp.read())
 
     return text
